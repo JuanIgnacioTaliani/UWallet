@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSReporteAdmin" targetNamespace="http://tempuri.org/DSReporteAdmin.xsd" xmlns:mstns="http://tempuri.org/DSReporteAdmin.xsd" xmlns="http://tempuri.org/DSReporteAdmin.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSReporteAdmin" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSReporteAdmin" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSReporteAdmin">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DTComisiones" msprop:Generator_RowEvHandlerName="DTComisionesRowChangeEventHandler" msprop:Generator_RowDeletedName="DTComisionesRowDeleted" msprop:Generator_RowDeletingName="DTComisionesRowDeleting" msprop:Generator_RowEvArgName="DTComisionesRowChangeEvent" msprop:Generator_TablePropName="DTComisiones" msprop:Generator_RowChangedName="DTComisionesRowChanged" msprop:Generator_UserTableName="DTComisiones" msprop:Generator_RowChangingName="DTComisionesRowChanging" msprop:Generator_RowClassName="DTComisionesRow" msprop:Generator_TableClassName="DTComisionesDataTable" msprop:Generator_TableVarName="tableDTComisiones">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Comision" msprop:Generator_ColumnPropNameInTable="ComisionColumn" msprop:Generator_ColumnPropNameInRow="Comision" msprop:Generator_UserColumnName="Comision" msprop:Generator_ColumnVarNameInTable="columnComision" type="xs:unsignedShort" minOccurs="0" />
+              <xs:element name="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_UserColumnName="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DTCriptomonedasMasTransaccionadas" msprop:Generator_RowEvHandlerName="DTCriptomonedasMasTransaccionadasRowChangeEventHandler" msprop:Generator_RowDeletedName="DTCriptomonedasMasTransaccionadasRowDeleted" msprop:Generator_RowDeletingName="DTCriptomonedasMasTransaccionadasRowDeleting" msprop:Generator_RowEvArgName="DTCriptomonedasMasTransaccionadasRowChangeEvent" msprop:Generator_TablePropName="DTCriptomonedasMasTransaccionadas" msprop:Generator_RowChangedName="DTCriptomonedasMasTransaccionadasRowChanged" msprop:Generator_UserTableName="DTCriptomonedasMasTransaccionadas" msprop:Generator_RowChangingName="DTCriptomonedasMasTransaccionadasRowChanging" msprop:Generator_RowClassName="DTCriptomonedasMasTransaccionadasRow" msprop:Generator_TableClassName="DTCriptomonedasMasTransaccionadasDataTable" msprop:Generator_TableVarName="tableDTCriptomonedasMasTransaccionadas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_UserColumnName="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" type="xs:int" minOccurs="0" />
+              <xs:element name="Abreviacion" msprop:Generator_ColumnPropNameInTable="AbreviacionColumn" msprop:Generator_ColumnPropNameInRow="Abreviacion" msprop:Generator_UserColumnName="Abreviacion" msprop:Generator_ColumnVarNameInTable="columnAbreviacion" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DTClienteXPais" msprop:Generator_RowEvHandlerName="DTClienteXPaisRowChangeEventHandler" msprop:Generator_RowDeletedName="DTClienteXPaisRowDeleted" msprop:Generator_RowDeletingName="DTClienteXPaisRowDeleting" msprop:Generator_RowEvArgName="DTClienteXPaisRowChangeEvent" msprop:Generator_TablePropName="DTClienteXPais" msprop:Generator_RowChangedName="DTClienteXPaisRowChanged" msprop:Generator_RowChangingName="DTClienteXPaisRowChanging" msprop:Generator_TableClassName="DTClienteXPaisDataTable" msprop:Generator_RowClassName="DTClienteXPaisRow" msprop:Generator_TableVarName="tableDTClienteXPais" msprop:Generator_UserTableName="DTClienteXPais">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Clientes" msprop:Generator_ColumnPropNameInRow="Clientes" msprop:Generator_ColumnPropNameInTable="ClientesColumn" msprop:Generator_ColumnVarNameInTable="columnClientes" msprop:Generator_UserColumnName="Clientes" type="xs:int" minOccurs="0" />
+              <xs:element name="Pais" msprop:Generator_ColumnPropNameInRow="Pais" msprop:Generator_ColumnPropNameInTable="PaisColumn" msprop:Generator_ColumnVarNameInTable="columnPais" msprop:Generator_UserColumnName="Pais" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
